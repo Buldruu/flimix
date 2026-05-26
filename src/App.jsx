@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 
-const LOGO_URL = "/logo.png";
+import logoImg from "./logo.png";
+const LOGO_URL = logoImg;
 
 const CATEGORIES = [
   {
